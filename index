@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลนักศึกษา</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .student-info {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .student-info p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .student-info h1 {
+            font-size: 24px;
+            color: #2d3e50;
+        }
+        .student-info .department {
+            font-size: 18px;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="student-info">
+        <h1>ข้อมูลนักศึกษา</h1>
+        <p>ชื่อนักศึกษา: Apirachata</p>
+        <p>รหัสนักศึกษา: 66114540834</p>
+        <p class="department">สาขา: DSSI (Data Science and Software Engineering)</p>
+    </div>
+</body>
+</html>
